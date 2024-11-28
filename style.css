@@ -1,0 +1,78 @@
+body {
+  font-family: "Arial", Helvetica, sans-serif;
+    font-size: 12pt;
+    margin: 0;
+}
+
+#head {
+  text-align: center;
+  font-weight: 1300px;
+  font-size: 12px;
+  color: white;
+  background-color: rgb(67, 163, 253);
+  margin: 5px 0 0 0;
+  padding: 3px 0px 3px 0;
+}
+
+h1, h2, h3, p {
+  padding: 0 10px 0 10px;
+}
+
+.word-title {
+  color: red;
+}
+
+.rules {
+  text-align: center;
+}
+
+.modal-overlay {
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#understand-button {
+  text-align: center;
+  background-color: rgba(242,96,11);
+  border: none;
+  height: 2rem;
+  width: 6rem;
+  border-radius: 3.5rem;
+  transition: 0.15s;
+}
+
+#understand-button:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 10px 0 rgba(128, 128, 128, 0.4);
+}
+
+#img-doraemon-1 {
+  width: 25%;
+  height: auto;
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: ;
+  
+}
+
+.links {
+  color: orangered;
+}
+
+#end-card {
+  font-size: 12px;
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 5px 3px 5px 2px;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  margin-bottom: 5px;
+  width: 100%;
+  box-shadow: 0px -4px red;
+  display: inline;
+}
